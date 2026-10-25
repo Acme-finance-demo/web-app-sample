@@ -17,6 +17,8 @@ jobs:
     defaults:
       run:
         working-directory: go-gin
+    env:
+      GOWORK: "off"
     steps:
       - uses: actions/checkout@v4
 
